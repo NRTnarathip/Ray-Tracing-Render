@@ -1,0 +1,14 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "files.associations": {
+        "vector": "cpp",
+        "cmath": "cpp"
+    },
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "c:\\Users\\drguy\\Desktop\\RayTracing",
+            "binaryPath": "c:\\Users\\drguy\\Desktop\\RayTracing\\app.exe",
+            "binaryArgs": []
+        }
+    ]
+}
