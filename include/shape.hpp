@@ -6,5 +6,5 @@
 class Shape : public Object
 {
 public:
-    virtual Rayhit getRayHit(Ray &ray) = 0;
+    virtual Rayhit getRayHit(const Ray &ray) = 0;
 };

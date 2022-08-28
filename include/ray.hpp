@@ -1,6 +1,8 @@
 #pragma once
 #include "glm/glm.hpp"
 #include <vector>
+class Object;
+
 class Ray
 {
 public:
@@ -32,6 +34,7 @@ public:
     {
         return glm::length(distance);
     }
+    Object *object;
     glm::vec3 distance = glm::vec3(10000.f);
     bool isHit = false;
     Hit hit;

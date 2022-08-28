@@ -6,7 +6,7 @@ class Sphere : public Shape
 {
 public:
     float radius = 1.f;
-    Rayhit getRayHit(Ray &ray)
+    Rayhit getRayHit(const Ray &ray)
     {
         Rayhit hit;
         glm::vec3 rayOrigin = ray.origin;
@@ -37,6 +37,7 @@ public:
         hit.hit.normal = normalPointIStart;
         hit.distance = pointIntersectionStart - rayOrigin;
         hit.isHit = true;
+        hit.object = this;
         return hit;
     }
 };

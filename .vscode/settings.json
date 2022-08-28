@@ -2,7 +2,9 @@
     "makefile.extensionOutputFolder": "./.vscode",
     "files.associations": {
         "vector": "cpp",
-        "cmath": "cpp"
+        "cmath": "cpp",
+        "iostream": "cpp",
+        "thread": "cpp"
     },
     "makefile.launchConfigurations": [
         {

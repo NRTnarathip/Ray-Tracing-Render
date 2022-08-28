@@ -1,5 +1,5 @@
-make.exe default --dry-run --always-make --keep-going --print-directory
+make.exe default --dry-run --keep-going --print-directory
 make.exe: Entering directory 'c:/Users/drguy/Desktop/RayTracing'
-g++ src/*.cpp -o app.exe -std=c++17 -I./include -I./src -L./lib
+g++ src/*.cpp -o app.exe -std=c++17 -O1 -I./thirdparty/include -I./include -I./src
 make.exe: Leaving directory 'c:/Users/drguy/Desktop/RayTracing'
  

@@ -8,7 +8,7 @@ make.exe: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Aug 25 02:09:45 2022
+# Make data base, printed on Sun Aug 28 17:02:28 2022
 
 # Variables
 
@@ -51,13 +51,15 @@ PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW
 # makefile (from 'Makefile', line 1)
 MAKEFILE_LIST :=  Makefile
 # environment
+FPS_BROWSER_USER_PROFILE_STRING = Default
+# environment
 TMP = C:\Users\drguy\AppData\Local\Temp
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
 PROGRAMDATA = C:\ProgramData
 # environment
-VSCODE_CWD = C:\Users\drguy\AppData\Local\Programs\Microsoft VS Code
+VSCODE_CWD = C:\Users\drguy\Desktop\RayTracing
 # default
 MAKE_HOST := Windows32
 # environment
@@ -85,7 +87,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 POSH_THEMES_PATH = C:\Users\drguy\AppData\Local\Programs\oh-my-posh\themes
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_8664_SBMADHBDMIIVZBXN
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_9932_JGTNPBQINAIDKTYA
 # environment
 COMPUTERNAME = balls
 # environment
@@ -105,7 +107,7 @@ VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 VSCODE_CODE_CACHE_PATH = C:\Users\drguy\AppData\Roaming\Code\CachedData\e4503b30fc78200f846c62cf8091b76ff5547662
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 COMMONPROGRAMFILES = C:\Program Files\Common Files
 # environment
@@ -165,6 +167,8 @@ SYSTEMROOT = C:\WINDOWS
 # environment
 APPDATA = C:\Users\drguy\AppData\Roaming
 # environment
+__COMPAT_LAYER = DetectorsShimLog
+# environment
 TEMP = C:\Users\drguy\AppData\Local\Temp
 # environment
 COMSPEC = C:\WINDOWS\system32\cmd.exe
@@ -193,11 +197,13 @@ LANG = C
 # environment
 PROCESSOR_LEVEL = 23
 # environment
-VSCODE_PID = 8664
+FPS_BROWSER_APP_PROFILE_STRING = Internet Explorer
+# environment
+VSCODE_PID = 9932
 # environment
 USERDOMAIN_ROAMINGPROFILE = balls
 # variable set hash-table stats:
-# Load=92/1024=9%, Rehash=0, Collisions=16/114=14%
+# Load=95/1024=9%, Rehash=0, Collisions=16/117=14%
 
 # Pattern-specific Variable Values
 
@@ -205,9 +211,9 @@ USERDOMAIN_ROAMINGPROFILE = balls
 
 # Directories
 
-# . (key c:/Users/drguy/Desktop/RayTracing, mtime 1661368159): 10 files, no impossibilities.
+# . (key c:/Users/drguy/Desktop/RayTracing, mtime 1661680936): 13 files, no impossibilities.
 
-# 10 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -225,7 +231,7 @@ all:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-08-23 10:36:42
+#  Last modified 2022-08-28 17:02:25
 #  File has been updated.
 #  Successfully updated.
 
@@ -234,7 +240,7 @@ default:
 #  Modification time never checked.
 #  File has not been updated.
 #  recipe to execute (from 'Makefile', line 2):
-	g++ src/*.cpp -o app.exe -std=c++17 -I./include -I./src -L./lib
+	g++ src/*.cpp -o app.exe -std=c++17 -O1 -I./thirdparty/include -I./include -I./src
 
 # Not a target:
 .DEFAULT:
@@ -250,12 +256,12 @@ default:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 14 / storage = 95 B / avg = 6 B
-# current buf: size = 8162 B / used = 95 B / count = 14 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 17 / storage = 128 B / avg = 7 B
+# current buf: size = 8162 B / used = 128 B / count = 17 / avg = 7 B
 
-# strcache performance: lookups = 19 / hit rate = 26%
+# strcache performance: lookups = 22 / hit rate = 22%
 # hash-table stats:
-# Load=14/8192=0%, Rehash=0, Collisions=1/19=5%
-# Finished Make data base on Thu Aug 25 02:09:45 2022
+# Load=17/8192=0%, Rehash=0, Collisions=1/22=5%
+# Finished Make data base on Sun Aug 28 17:02:28 2022
 
  
